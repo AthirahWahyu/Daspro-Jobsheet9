@@ -113,6 +113,20 @@ _Jawaban:_
 1.  Tidak ada perubahan hasil (output program tetap sama). Program tetap meminta input 10 nilai dan menampilkannya kembali seperti sebelumnya.
     - Alasannya : nilaiAkhir.length adalah panjang array, yaitu 10 (jumlah elemen yang bisa disimpan). Jadi, secara logika i < nilaiAkhir.length artinya i < 10, yang sama persis dengan perulangan sebelumnya.
 2.  Selama nilai i masih lebih kecil dari panjang array (nilaiAkhir.length), maka perulangan akan terus berjalan. Saat i sudah tidak lebih kecil (sudah sama dengan panjang array), maka perulangan berhenti.
+3.  - Kode : for (int i = 0; i < nilaiAkhir.
+    length; i++)
+    Penjelasan : Ini adalah perulangan (loop) yang akan berjalan sebanyak jumlah elemen array nilaiAkhir. nilaiAkhir.length menunjukkan panjang array, misalnya 10. Jadi i akan bernilai : 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Program akan memeriksa setiap elemen array satu per satu.
+
+    - Kode : if (nilaiAkhir[i] > 70)
+    Penjelasan : Ini adalah kondisi pengecekan (seleksi). Jika nilai mahasiswa pada indeks ke-i lebih dari 70, maka mahasiswa tersebut lulus. Kalau syarat benar (true), baris di dalam if akan dijalankan. Kalau syarat salah (false), baris di dalam if dilewati (tidak melakukan apa-apa).
+
+    - Kode : System.out.println("Nilai akhir ke-" + i + " Lulus! ")
+    Penjelasan : Baris ini hanya dijalankan kalau kondisi if di atas terpenuhi. Program akan menampilkan output seperti ini "Nilai akhir ke-3 Lulus!". + i + berfungsi untuk menyisipkan nomor indeks ke dalam teks.
+
+
+
+
+
 
 
 
