@@ -71,6 +71,12 @@ _Jawaban:_
     Penjelasan : for (int i = 0 < 4; i++)
                 - Perulangan dimulai dari i = 0 sampai i < 4 (berarti i bernilai 0, 1, 2, 3).
                 - Karena array punya 4 elemen, perulangan akan mengakses semua elemen array.
+4.  Output dari program : 
+
+![P1n4](./P1n4.png)
+
+    Penjelasan : - Karena array hanya punya 4 elemen (indeks 0-3), maka bil [4] tidak ada
+                 - Kondisi i <= 4 membuat loop mencoba mengakses indeks ke-4, yang keluar dari batas array, sehingga program error
 
 
 
