@@ -31,3 +31,23 @@ _Jawaban:_
 ![P1n1](./P1n1.png)
 
     - Alasannya : Elemen array bertipe int hanya bisa diisi bilangan bulat (tanpa koma). Jika ingin menyimpan angka pecahan seperti 5.0 atau 7.5 harus mengubah tipe array menjadi double
+2.  Modifikasi : 
+
+    ```java 
+            public class ArrayBilangan4 {
+            public static void main(String[] args) {
+
+            // Array bertipe integer dengan nama bil dengan kapasitas 4 elemen
+            int [] bil = {5, 13, -7, 17};
+
+         // Output
+            System.out.println(bil[0]);
+            System.out.println(bil[1]);
+            System.out.println(bil[2]);
+            System.out.println(bil[3]);
+     }
+    }
+    ```
+
+    - Penjelasan : int [] bil = {5, 13, -7, 17};
+    - Artinya, Java otomatis tahu panjang array-nya 4 elemen dari jumlah data yang diisi. Jadi tidak perlu lagi menulis new int[4] dan mengisi satu-satu
