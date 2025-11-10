@@ -112,8 +112,7 @@ _Jawaban:_
 
 1.  Tidak ada perubahan hasil (output program tetap sama). Program tetap meminta input 10 nilai dan menampilkannya kembali seperti sebelumnya.
     - Alasannya : nilaiAkhir.length adalah panjang array, yaitu 10 (jumlah elemen yang bisa disimpan). Jadi, secara logika i < nilaiAkhir.length artinya i < 10, yang sama persis dengan perulangan sebelumnya.
-
-
+2.  Selama nilai i masih lebih kecil dari panjang array (nilaiAkhir.length), maka perulangan akan terus berjalan. Saat i sudah tidak lebih kecil (sudah sama dengan panjang array), maka perulangan berhenti.
 
 
 
