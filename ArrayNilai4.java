@@ -13,8 +13,10 @@ public class ArrayNilai4 {
             nilaiAkhir[i] = input.nextInt();            
         }
         for (int i = 0; i < nilaiAkhir.length; i++) {
-            if (nilaiAkhir[i] > 70) {
-                System.out.println("Nilai akhir ke-" + i + "lulus!");
+            if (nilaiAkhir[i] >= 70) {
+                System.out.println("Nilai akhir ke-" + i + " Lulus! ");
+            } else {
+                System.out.println("Nilai akhir ke-" + i + " Tidak Lulus! ");
             }
         }
         input.close();
