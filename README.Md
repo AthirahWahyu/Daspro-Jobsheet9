@@ -51,3 +51,29 @@ _Jawaban:_
 
     - Penjelasan : int [] bil = {5, 13, -7, 17};
     - Artinya, Java otomatis tahu panjang array-nya 4 elemen dari jumlah data yang diisi. Jadi tidak perlu lagi menulis new int[4] dan mengisi satu-satu
+3.  Modifikasi : 
+
+    ```java 
+            public class ArrayBilangan4 {
+            public static void main(String[] args) {
+
+            // Array bertipe integer dengan nama bil dengan kapasitas 4 elemen
+            int [] bil = {5, 13, -7, 17};
+
+            // Output
+            for (int i = 0; i < 4; i++) {
+                System.out.println(bil[i]);
+            }
+        }
+    }
+    ```
+
+    Penjelasan : for (int i = 0 < 4; i++)
+                - Perulangan dimulai dari i = 0 sampai i < 4 (berarti i bernilai 0, 1, 2, 3).
+                - Karena array punya 4 elemen, perulangan akan mengakses semua elemen array.
+
+
+
+
+    
+
