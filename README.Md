@@ -29,8 +29,8 @@ _Jawaban:_
 1.  Yang akan terjadi 
 
 ![P1n1](./P1n1.png)
-
-    - Alasannya : Elemen array bertipe int hanya bisa diisi bilangan bulat (tanpa koma). Jika ingin menyimpan angka pecahan seperti 5.0 atau 7.5 harus mengubah tipe array menjadi double
+    - Alasannya : Elemen array bertipe int hanya bisa diisi bilangan bulat (tanpa koma). 
+    Jika ingin menyimpan angka pecahan seperti 5.0 atau 7.5 harus mengubah tipe array menjadi double
 2.  Modifikasi : 
 
     ```java 
@@ -74,9 +74,49 @@ _Jawaban:_
 4.  Output dari program : 
 
 ![P1n4](./P1n4.png)
-
     Penjelasan : - Karena array hanya punya 4 elemen (indeks 0-3), maka bil [4] tidak ada
                  - Kondisi i <= 4 membuat loop mencoba mengakses indeks ke-4, yang keluar dari batas array, sehingga program error
+
+## - Percobaan 2 : Studi Kasus Nilai Mahasiswa di SIAKAD - Meminta Inputan Pengguna untuk Mengisi Elemen Array 
+
+## - Percobaan 2 : Verifikasi Hasil Percobaan
+
+![Verifikasi2](./Verifikasi2.png)
+
+_Pertanyaan:_
+
+1.  Ubah statement pada langkah nomor 5 menjadi seperti berikut ini : 
+    ```java 
+        for (int i = 0; i < nilaiAkhir.length; i++) {
+            System.out.print("Masukkan nilai akhir ke - " + i + " : ");
+            nilaiAkhir[i] = input.nextInt();            
+        }
+    ``` 
+    Jalankan program. Apakah terjadi perubahan? Mengapa demikian?
+2.  Apa yang dimaksud dengan kondisi: i < nilaiAkhir.length ? 
+3.  Ubah statement pada langkah nomor 6 menjadi seperti berikut ini, sehingga program hanya menampilkan nilai
+    Mahasiswa yang lulus saja (yaitu mahasiswa yang memiliki nilai > 70) : 
+    ```java 
+         for (int i = 0; i < nilaiAkhir.length; i++) {
+            if (nilaiAkhir[i] > 70) {
+                System.out.println("Nilai akhir ke-" + i + "lulus!");
+            }
+        }
+    ```
+    Jalankan program dan jelaskan alur program!
+4.  Modifikasi program agar menampilkan status      kelulusan semua mahasiswa berdasarkan nilai, yaitu dengan menampilkan status mana mahasiswa yang lulus dan tidak lulus, seperti ilustrasi output berikut : 
+
+![ilustrasi](./Ilustrasi.png)
+
+_Jawaban:_
+
+1.  Tidak ada perubahan hasil (output program tetap sama). Program tetap meminta input 10 nilai dan menampilkannya kembali seperti sebelumnya.
+    - Alasannya : nilaiAkhir.length adalah panjang array, yaitu 10 (jumlah elemen yang bisa disimpan). Jadi, secara logika i < nilaiAkhir.length artinya i < 10, yang sama persis dengan perulangan sebelumnya.
+
+
+
+
+
 
 
 
