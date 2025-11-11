@@ -239,7 +239,7 @@ Output :
                     // Mengisi array nilaiMhs dengan nilai dari input pengguna
                     for (int i = 0; i < nilaiMhs.length; i++) {
                         System.out.print("Masukkan nilai mahasiswa ke-"+ (i+1) +" : ");
-                    nilaiMhs [i] = input.nextInt();
+                        nilaiMhs [i] = input.nextInt();
                     }
         
                     // Menghitung total nilai lulus dan tidak lulus
@@ -275,9 +275,35 @@ Output :
 Output : 
 ![P3j2](./P3j2.png)
 
+## - Percobaan 4 : Searching 
 
+# - Percobaan 4 : Verifikasi Hasil Percobaan
 
+![Verifikasi4](./Verifikasi4.png)
 
+_Pertanyaan:_
+
+1.  Jelaskan maksud dari statement break; pada baris ke-10 kode program percobaan 4 di
+atas.
+2.  Modifikasi kode program pada percobaan 4 di atas sehingga program dapat menerima
+input berupa banyaknya elemen array nilai, isi array, dan sebuah nilai (key) yang ingin
+dicari. Lalu cetak ke layar indeks posisi elemen dari nilai (key) yang dicari. Contoh hasil
+program:
+
+![P4p2](./P4p2.png)
+
+3.  Modifikasi program pada percobaan 4     di atas, sehingga program akan memberikan pesan
+"Nilai yang dicari tidak ditemukan" jika nilai yang dicari (key) tidak ada di dalam array.
+Contoh tampilan program sebagai berikut:
+
+![P4p3](./P4p3.png)
+
+_Jawaban:_ 
+
+1.  Penjelasan dari statement break; 
+    - break; digunakan untuk keluar dari perulangan for secara langsung, meskipun kondisi i < arrNilai.length masih benar.
+    - Jadi ketika nilai yang dicari (key) sudah ditemukan di array, perulangan tidak perlu dilanjutkan lagi.
+    Kesimpulan : Jadi, break; artinya menghentikan perulangan seketika saat kondisi tertentu terpenuhi. Pada program ini, break; berfungsi untuk menghentikan pencarian nilai setelah data ditemukan, supaya program lebih efisien (tidak melakukan pengecekan yang tidak perlu).
 
 
 
