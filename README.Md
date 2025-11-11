@@ -31,7 +31,7 @@ _Jawaban:_
 ![P1n1](./P1n1.png)
     - Alasannya : Elemen array bertipe int hanya bisa diisi bilangan bulat (tanpa koma). 
     Jika ingin menyimpan angka pecahan seperti 5.0 atau 7.5 harus mengubah tipe array menjadi double
-    
+
 2.  Modifikasi : 
 
     ```java 
@@ -152,6 +152,7 @@ _Jawaban:_
     }
     ```
 Output :
+
 ![P2n4](./P2n4.png) 
 
 ## - Percobaan 3 : Studi Kasus Nilai Mahasiswa di SIAKAD - Melakukan Operasi Aritmatika terhadap Elemen Array 
@@ -213,7 +214,8 @@ _Jawaban:_
                 }
             }
     ```
-Output : 
+Output :
+
 ![P3p1](./P3p1.png)
 
 2.  Code : 
@@ -275,6 +277,7 @@ Output :
             }
     ```
 Output : 
+
 ![P3j2](./P3j2.png)
 
 ## - Percobaan 4 : Searching 
@@ -352,7 +355,9 @@ _Jawaban:_
             }
     ```
 Output : 
+
 ![P4j2](./P4j2.png)
+
 3.  Code : 
     ```java 
             import java.util.Scanner;
@@ -401,6 +406,7 @@ Output :
         }
     ```
 Output : 
+
 ![P4j3](./P4j3.png)
 
 
