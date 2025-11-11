@@ -31,6 +31,7 @@ _Jawaban:_
 ![P1n1](./P1n1.png)
     - Alasannya : Elemen array bertipe int hanya bisa diisi bilangan bulat (tanpa koma). 
     Jika ingin menyimpan angka pecahan seperti 5.0 atau 7.5 harus mengubah tipe array menjadi double
+    
 2.  Modifikasi : 
 
     ```java 
@@ -96,6 +97,7 @@ _Pertanyaan:_
 2.  Apa yang dimaksud dengan kondisi: i < nilaiAkhir.length ? 
 3.  Ubah statement pada langkah nomor 6 menjadi seperti berikut ini, sehingga program hanya menampilkan nilai
     Mahasiswa yang lulus saja (yaitu mahasiswa yang memiliki nilai > 70) : 
+
     ```java 
          for (int i = 0; i < nilaiAkhir.length; i++) {
             if (nilaiAkhir[i] > 70) {
