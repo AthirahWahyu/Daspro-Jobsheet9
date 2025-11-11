@@ -36,7 +36,9 @@ public class SearchNilai4 {
         // Menampilkan hasil pencarian 
         if (hasil != -1) {
             System.out.println("Nilai " + key + " ketemu, merupakan nilai mahasiswa ke-" + (hasil + 1));
-        } 
+        } else { 
+            System.out.println("Nilai " + key + " yang dicari tidak ditemukan");
+        }
         input.close();
     }
 }
