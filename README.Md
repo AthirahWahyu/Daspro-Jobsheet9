@@ -411,8 +411,6 @@ Output :
 
 # TUGAS 
 
-## Tugas 1
-
 1.  Code : 
     ```java 
             import java.util.Scanner;
@@ -482,7 +480,7 @@ Output :
         }
     ```
 Output :
- 
+
 ![VerifikasiTugas1](./VerifikasiTugas1.png)
 
 2.  Code : 
